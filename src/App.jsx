@@ -10,7 +10,7 @@ import Contact from "./pages/contact/components/Contact";
 import Career from "./pages/career/components/Career";
 import Volunteer from "./pages/volunteer/components/Volunteer";
 import ApplyCareer from "./pages/applycareer/components/ApplyCareer";
-import Leadership from "./pages/leadership/components/Leadership";
+import Leadership from "./pages/leadership/Leadership";
 import Faqs from "./pages/faqs/components/Faqs";
 import Appointment from "./pages/appointment/components/Appointment";
 import Donners from "./pages/donners/components/Donners";
