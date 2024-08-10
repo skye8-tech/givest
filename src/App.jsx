@@ -3,6 +3,9 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import CauseDetails from "./pages/causes/CauseDetails";
+import Causes from "./pages/causes/Causes";
+import DonatePage from "./pages/causes/DonatePage";
 import Home from "./pages/home/Home";
 import About from "./pages/about/components/About"
 import Causes from "./pages/causes/Causes"
@@ -28,26 +31,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        
         
         <Route path="/causes" element={<Causes />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/volunteer" element={<Volunteer />} />
-        <Route path="/applycareer" element={<ApplyCareer />} />
-        <Route path="/leadership" element={<Leadership />} />
-        <Route path="/faqs" element={<Faqs />} />
-        <Route path="/appointment" element={<Appointment />} />
-        <Route path="/donners" element={<Donners />} />
-        <Route path="/donationhistory" element={<DonationHistory />} />
-        <Route path="/donationfailed" element={<DonationFailed />} />
-        <Route path="/404" element={<Section404 />} />
-        <Route path="/comingsoon" element={<ComingSoon />} />
-
-
-
-
-        
-        
+        <Route path="/causes/:id" element={<CauseDetails />} />
+        <Route path="/donate" element={<DonatePage />} />
       </Routes>
     </BrowserRouter>
   );
