@@ -15,7 +15,7 @@ import Faqs from "./pages/faqs/components/Faqs";
 import Appointment from "./pages/appointment/components/Appointment";
 import Donners from "./pages/donners/components/Donners";
 import DonationHistory from "./pages/donationhistory/components/DonationHistory";
-import DonationFailed from "./pages/donationfailed/components/DonationFailed";
+import DonationFailed from "./pages/donationfailed/DonationFailed";
 import Section404 from "./pages/404/components/Section404";
 import ComingSoon from "./pages/comingsoon/components/ComingSoon";
 
