@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../../../components/layout/Header'
-import Footer from '../../../components/layout/Footer'
-import Hero1 from '../../../components/layout/Hero1'
-import ApplyForm from './ApplyForm'
+import Header from '../../components/layout/Header'
+import Footer from '../../components/layout/Footer'
+import Hero1 from '../../components/layout/Hero1'
+import ApplyForm from './components/ApplyForm'
 
 
 
